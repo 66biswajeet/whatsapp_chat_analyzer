@@ -240,7 +240,16 @@ if uploaded_file is not None:
         
       
 
-        
+footer_html = """
+<div style="text-align: center; padding: 10px; background-color: #f0f0f0;">
+  <p>© 2024 Biswajeet Jena - Developed with ❤️ using Streamlit</p>
+</div>
+"""
+
+st.markdown(footer_html, unsafe_allow_html=True)
+st.markdown("--- \n © 2024 Biswajeet Jena | @jeetcode")
+
+
                 
             
 
