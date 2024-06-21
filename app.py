@@ -241,7 +241,7 @@ if uploaded_file is not None:
       
 
 footer_html = """
-<div style="text-align: center; padding: 10px; background-color: #f0f0f0;">
+<div style="text-align: center; padding: 10px; background-color: "black";">
   <p>© 2024 Biswajeet Jena - Developed with ❤️ using Streamlit</p>
 </div>
 """
